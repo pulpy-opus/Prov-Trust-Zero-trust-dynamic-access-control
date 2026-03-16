@@ -1,0 +1,28 @@
+name: prov-trust
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=2.3.0
+  - torchvision=0.18.0
+  - pytorch-cuda=12.1
+  - pyg=2.5.3
+  - numpy=1.24.3
+  - scipy=1.13.1
+  - pandas=2.3.2
+  - scikit-learn=1.5.0
+  - networkx=2.8.7
+  - tqdm=4.67.1
+  - psycopg2=2.9.9
+  - pip:
+    - xxhash==3.4.1
+    - pymannkendall==1.4.3
+    - python-louvain==0.16
+    - torch-scatter
+    - torch-sparse
+    - torch-cluster
+    - torch-spline-conv

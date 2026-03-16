@@ -1,0 +1,14 @@
+# Artifacts
+artifact/
+*.log
+*.pt
+*.TemporalData.simple
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
